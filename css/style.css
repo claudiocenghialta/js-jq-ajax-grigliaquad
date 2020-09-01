@@ -1,0 +1,42 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+.container {
+    text-align: center;
+    height: 90vh;
+    margin: 5vh auto;
+}
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.square {
+    height: 80px;
+    width: 80px;
+   
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.yellow {
+     background-color: yellow;
+}
+
+.green {
+     background-color: green;
+}
